@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADJUST	第五章：运算符，表达式和语句/5.1 循环简介/shoes1/shoes1.c	3;"	d	file:
+ImChar	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	121;"	v
+ImDobule	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	127;"	v
+ImFloat	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	126;"	v
+ImInt	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	123;"	v
+ImLong	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	124;"	v
+ImLongLong	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	125;"	v
+ImShort	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	122;"	v
+KNOW_CHAR	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	11;"	d
+KNOW_DOUBLE	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	13;"	d
+KNOW_FLOAT	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	12;"	d
+KNOW_INT	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	7;"	d
+KNOW_LONG	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	9;"	d
+KNOW_LONGDOUBULE	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	14;"	d
+KNOW_LONGLONG	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	10;"	d
+KNOW_SHORT	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	8;"	d
+NINGNING	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	31;"	d	file:
+NINGNINGFOR16	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	32;"	d	file:
+NINGNINGFOR8	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	33;"	d	file:
+PI	第四章：字符串简介/4.4 printf()和scanf()/4.4.2 使用printf()/printout/printout.c	4;"	d	file:
+PRINTF_BUTTON	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	17;"	d
+Printf8	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	132;"	f
+ShortStudy	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	95;"	f
+__PRINTFSUM__H__	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h	2;"	d
+main	第五章：运算符，表达式和语句/5.1 循环简介/shoes1/shoes1.c	5;"	f
+main	第四章：字符串简介/4.3 常量和c预定处理器/4.3.2 明示常量/defines/defines.c	6;"	f
+main	第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c	139;"	f
+main	第四章：字符串简介/4.4 printf()和scanf()/4.4.2 使用printf()/printout/printout.c	6;"	f

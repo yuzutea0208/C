@@ -1,0 +1,430 @@
+cscope 15 /workspaces/C -c               0000003477
+	@第五章：运算符，表达式和语句/5.1 循环简介/shoes1/shoes1.c
+
+2 #include 
+	~<stdio.h
+>
+
+3 #define 
+	#ADJUST
+ 7.31
+
+	)
+
+5 int 
+	$main
+(void)
+
+7 const double 
+SCALE
+ = 0.333;
+
+8 double 
+shoe
+, 
+foot
+;
+
+10 
+shoe
+ = 9.0;
+
+11 
+foot
+ = 
+SCALE
+ * 
+shoe
+ + 
+ADJUST
+;
+
+13 
+	`printf
+("鞋码(男士) 脚长\n");
+
+14 
+	`printf
+("%10.1f %15.2f 英寸\n", 
+shoe
+, 
+foot
+);
+
+15 
+	`getchar
+();
+
+17 
+	}
+}
+
+	@第四章：字符串简介/4.3 常量和c预定处理器/4.3.2 明示常量/defines/defines.c
+
+2 #include 
+	~<stdio.h
+>
+
+3 #include 
+	~<limits.h
+>
+
+4 #include 
+	~<float.h
+>
+
+6 int 
+	$main
+(void)
+
+8 
+	`printf
+("此系统的一些数字限制:\n");
+
+9 
+	`printf
+("最大的整数: %d\n", 
+INT_MAX
+);
+
+10 
+	`printf
+("最小的长长整数: %lld\n", 
+LLONG_MIN
+);
+
+11 
+	`printf
+("在此系统上，一个字节 = %d 位。\n", 
+CHAR_BIT
+);
+
+12 
+	`printf
+("最大的双精度浮点数: %e\n", 
+DBL_MAX
+);
+
+13 
+	`printf
+("最小的正常单精度浮点数: %e\n", 
+FLT_MIN
+);
+
+14 
+	`printf
+("单精度浮点数的精度 = %d 位\n", 
+FLT_DIG
+);
+
+15 
+	`printf
+("单精度浮点数的 epsilon = %e\n", 
+FLT_EPSILON
+);
+
+17 
+	}
+}
+
+	@第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c
+
+3 #include 
+	~<stdio.h
+>
+
+4 #include 
+	~<limits.h
+>
+
+5 #include 
+	~<float.h
+>
+
+6 #include 
+	~"printfSum.h
+"
+
+20 #ifdef 
+KNOW_INT
+
+
+31 #define 
+	#NINGNING
+ 0721
+
+	)
+
+32 #define 
+	#NINGNINGFOR16
+ 0x02D1
+
+	)
+
+33 #define 
+	#NINGNINGFOR8
+ 01321
+
+	)
+
+95 void 
+	$ShortStudy
+()
+
+97 int 
+ImInt
+ = 65537;
+
+98 short 
+ImShort
+ = 0x0721;
+
+99 unsigned short 
+ImUnsginedShort
+ = 0721;
+
+100 signed short 
+ImSginedShort
+ = -1;
+
+101 unsigned short int 
+ImUnsginedShortInt
+ = 721;
+
+102 signed short int 
+ImUnsginedShortInt
+ = -721;
+
+104 
+	`printf
+("ImShort��ֵ��10����hd��ӡ������%hd", 
+ImShort
+);
+
+105 
+	`printf
+("ImShort��ֵ��8����ho��ӡ������%ho", 
+ImShort
+);
+
+106 
+	`printf
+("ImShort��ֵ��16����hx��ӡ������%hx", 
+ImShort
+);
+
+108 
+	`printf
+("ImShort��ֵ��10����d��ӡ������%hd", 
+ImShort
+);
+
+109 
+	`printf
+("ImShort��ֵ��8����hd��ӡ������%ho", 
+ImShort
+);
+
+110 
+	`printf
+("ImShort��ֵ��16����hd��ӡ������%hx", 
+ImShort
+);
+
+113 
+	`printf
+("ѧϰ����,������뺯��ShortStudy()\n");
+
+114 
+	}
+}
+
+121 char 
+	gImChar
+;
+
+122 short 
+	gImShort
+;
+
+123 int 
+	gImInt
+;
+
+124 long 
+	gImLong
+;
+
+125 long long 
+	gImLongLong
+;
+
+126 float 
+	gImFloat
+;
+
+127 double 
+	gImDobule
+;
+
+132 int 
+	$Printf8
+(void)
+
+136 
+	`printf
+();
+
+137 
+	}
+}
+
+139 int 
+	$main
+(void)
+
+141 
+	`ShortStudy
+();
+
+143 
+	}
+}
+
+	@第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h
+
+1 #ifndef 
+__PRINTFSUM__H__
+
+
+2 #define 
+	#__PRINTFSUM__H__
+
+
+	)
+
+7 #define 
+	#KNOW_INT
+ 1
+
+	)
+
+8 #define 
+	#KNOW_SHORT
+ 0
+
+	)
+
+9 #define 
+	#KNOW_LONG
+ 0
+
+	)
+
+10 #define 
+	#KNOW_LONGLONG
+ 0
+
+	)
+
+11 #define 
+	#KNOW_CHAR
+ 0
+
+	)
+
+12 #define 
+	#KNOW_FLOAT
+ 0
+
+	)
+
+13 #define 
+	#KNOW_DOUBLE
+ 0
+
+	)
+
+14 #define 
+	#KNOW_LONGDOUBULE
+ 0
+
+	)
+
+17 #define 
+	#PRINTF_BUTTON
+ 1
+
+	)
+
+	@第四章：字符串简介/4.4 printf()和scanf()/4.4.2 使用printf()/printout/printout.c
+
+3 #include 
+	~<stdio.h
+>
+
+4 #define 
+	#PI
+ 3.141593
+
+	)
+
+6 int 
+	$main
+(void)
+
+8 int 
+number
+ = 7;
+
+9 float 
+pies
+ = 12.75;
+
+10 int 
+cost
+ = 7800;
+
+12 
+	`printf
+("有%d位参赛者吃了%f个草莓派。\n",
+number
+,
+pies
+);
+
+13 
+	`printf
+("圆周率的值是%f。\n",
+PI
+);
+
+14 
+	`printf
+("你对我来说太贵咯。\n");
+
+15 
+	`printf
+("%c%d\n",'$',2 * 
+cost
+);
+
+17 
+	`getchar
+();
+
+19 
+	}
+}
+
+	@
+1
+.
+0
+5
+431
+第五章：运算符，表达式和语句/5.1 循环简介/shoes1/shoes1.c
+第四章：字符串简介/4.3 常量和c预定处理器/4.3.2 明示常量/defines/defines.c
+第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.c
+第四章：字符串简介/4.4 printf()和scanf()/4.4.1 printf()函数/printfSum.h
+第四章：字符串简介/4.4 printf()和scanf()/4.4.2 使用printf()/printout/printout.c
